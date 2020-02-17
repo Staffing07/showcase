@@ -148,8 +148,19 @@ ul {
   font-weight: bold;
 }
 
+.home-cards a i {
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0px);
+    margin-left: 0.5em;
+  }
+
+  .home-cards .link-text:hover {
+    border-bottom: 2px solid #262626;
+}  
+  
 .home-cards a:hover i {
-  margin-left: 10px;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(10px);
 }
 
 /* Xbox feature */
